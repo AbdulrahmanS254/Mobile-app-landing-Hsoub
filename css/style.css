@@ -1,0 +1,480 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=El+Messiri:wght@400;500;600;700&family=Playfair+Display:wght@400;500;700&family=Work+Sans:wght@400;500;600&display=swap");
+
+* {
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: "Cairo", sans-serif;
+}
+
+header {
+   background-image: url(../images/bg.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+header .overlay {
+   background-color: rgba(201, 54, 62, 0.9);
+   padding-top: 90px;
+   position: relative;
+}
+
+header .overlay .header-block {
+   padding: 80px 0 125px 0;
+}
+
+header .overlay .header-block .header-brand {
+   margin-bottom: 62px;
+}
+
+header .overlay .header-block .header-text h1 {
+   color: #fff;
+   font-size: 30px;
+   line-height: 37px;
+   margin-bottom: 35px;
+}
+
+header .overlay .header-block .header-text p {
+   font-size: 18px;
+   line-height: 32px;
+   color: #fff;
+   margin-bottom: 90px;
+}
+
+header .overlay .header-block .header-buttons a img {
+   width: 250px;
+}
+
+header .overlay .header-block .header-buttons a:last-child img {
+   height: 65px;
+}
+
+header .overlay .header-img img {
+   position: absolute;
+   bottom: -200px;
+   max-width: 100%;
+}
+
+main section.feature {
+   padding: 80px 0 90px;
+   background-color: #fff;
+   position: relative;
+}
+
+section.feature .features {
+   margin-top: 90px;
+}
+
+section.feature .left-f {
+   direction: ltr;
+}
+
+section.feature .features .d-flex {
+   margin-bottom: 60px;
+}
+
+section.feature .features .d-flex .flex-shrink-0 i {
+   width: 70px;
+   height: 70px;
+   line-height: 70px;
+   text-align: center;
+   color: #fff;
+   background-color: #ef473a;
+}
+
+section.feature .features .d-flex .flex-grow-1 h5 {
+   font-size: 24px;
+   color: #080808;
+}
+
+section.feature .features .d-flex .flex-grow-1 p {
+   font-size: 15px;
+   line-height: 20px;
+   color: #757474;
+}
+
+section.feature .feature-img img {
+   width: 70%;
+}
+
+section.about {
+   background-color: #f9f8f8;
+   padding-top: 45px;
+   position: relative;
+}
+
+section.about .about-cards {
+   margin-top: 80px;
+   margin-bottom: 100px;
+}
+
+section.about .about-cards .d-flex {
+   margin-bottom: 65px;
+}
+
+section.about .about-cards .d-flex h5 {
+   color: #141414;
+   font-size: 24px;
+   margin-bottom: 18px;
+}
+section.about .about-cards .d-flex p {
+   color: #757474;
+   font-size: 15px;
+   line-height: 20px;
+}
+
+section.about .about-img {
+   position: absolute;
+   bottom: -120px;
+}
+
+section.slider {
+   position: relative;
+   padding: 80px 0 125px;
+   background-color: #fff;
+}
+
+section.slider .slider-text h3 {
+   color: #141414;
+   font-size: 36px;
+   line-height: 37px;
+   margin-bottom: 60px;
+}
+section.slider .slider-carousel .carousel-inner {
+   width: 60%;
+   margin: auto;
+}
+
+section.slider .slider-carousel button.carousel-control-prev,
+section.slider .slider-carousel button.carousel-control-next {
+   background-color: #fff;
+   border: 1px solid #ef473a;
+   color: #ef473a;
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   margin-top: 145px;
+}
+
+section.slider .slider-carousel .carousel-indicators {
+   bottom: -70px;
+}
+
+section.slider .slider-carousel .carousel-indicators button {
+   width: 20px;
+   height: 20px;
+   border: 1px solid #ef473a;
+   border-radius: 50%;
+}
+
+section.slider .slider-carousel .carousel-indicators button.active {
+   background-color: #ef473a;
+}
+
+section.faq {
+   background-image: url(../images/bg-2.jpg);
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+section.faq .overlay {
+   background-color: rgba(0, 0, 0, 0.7);
+   padding: 68px 0 80px;
+}
+
+section.faq .overlay .faq-title h3 {
+   color: #fff;
+   font-size: 30px;
+   margin-bottom: 60px;
+}
+
+section.faq .overlay .accordion .accordion-item {
+   margin-bottom: 30px;
+   background-color: rgba(255, 255, 255, 0.2);
+   border: 0;
+   border-radius: 0;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button {
+   background-color: transparent;
+   border: 0;
+   color: #fff;
+   font-size: 18px;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button i {
+   margin-right: auto;
+   transition: 0.3s ease-in-out;
+}
+
+section.faq
+   .overlay
+   .accordion
+   .accordion-item
+   .accordion-header
+   button.collapsed
+   i {
+   transform: rotate(180deg);
+}
+
+section.faq
+   .overlay
+   .accordion
+   .accordion-item
+   .accordion-header
+   button::after {
+   content: none;
+}
+
+section.faq
+   .overlay
+   .accordion
+   .accordion-item
+   .accordion-header
+   .accordion-button:not(.collapsed) {
+   box-shadow: none;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-header button:focus {
+   box-shadow: 0 0 0 0;
+   border-color: transparent;
+}
+
+section.faq .overlay .accordion .accordion-item .accordion-body p {
+   font-size: 15px;
+   line-height: 20px;
+   color: #c9c9c9;
+}
+
+footer {
+   background-color: #232323;
+}
+
+footer .top-footer {
+   padding: 70px 0 50px;
+   border-bottom: 3px solid #282828;
+}
+
+footer .top-footer h3 {
+   font-size: 24px;
+   line-height: 25px;
+   color: #f4f8fb;
+   padding-bottom: 27px;
+   border-bottom: 2px solid #292828;
+   margin-bottom: 35px;
+   position: relative;
+}
+
+footer .top-footer h3::after {
+   content: "";
+   background-color: #933932;
+   width: 90px;
+   height: 2px;
+   position: absolute;
+   bottom: -1px;
+   right: 0;
+}
+
+footer .top-footer p {
+   font-size: 18px;
+   color: #757474;
+   margin-bottom: 95px;
+}
+
+footer .top-footer .about-us ul li a {
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+   display: block;
+   background-color: #343637;
+   color: #fff;
+   text-align: center;
+   border-radius: 50%;
+   transition: 0.4s ease-in-out;
+}
+
+footer .top-footer .about-us ul li a:hover {
+   background-color: #ef473a;
+}
+
+footer .top-footer .last-tweets p {
+   padding: 20px 0 20px;
+   margin-bottom: 0;
+   border-bottom: 1px solid #292828;
+}
+
+footer .top-footer .last-tweets p:nth-of-type(1) {
+   padding: 0px 0px 20px;
+}
+
+footer .top-footer .last-tweets p:last-child {
+   border-bottom: 0;
+}
+
+footer .top-footer .last-tweets p span {
+   color: #ef473a;
+}
+
+footer .top-footer .mail form .form-control {
+   direction: rtl;
+   border-radius: 0;
+   border: 0;
+   font-size: 14px;
+   line-height: 25px;
+   color: #c6c6c6;
+   background-color: #2c2b2b;
+   padding: 10px;
+   margin-bottom: 15px;
+   width: 90%;
+}
+
+footer .top-footer .mail form .form-control::placeholder {
+   color: #c6c6c6;
+}
+
+footer .top-footer .mail form .btn {
+   background-color: #ef473a;
+   border-radius: 0;
+   font-size: 14;
+   line-height: 25px;
+   color: #fff;
+   padding: 8px 25px;
+   transition: all 0.4s ease;
+}
+
+footer .top-footer .mail form .btn:hover {
+   background-color: #e79580;
+   color: #2a2725;
+}
+
+footer .bottom-footer {
+   padding: 25px;
+}
+
+footer .bottom-footer p {
+   color: #565656;
+   font-size: 15px;
+   margin-bottom: 0;
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+   section.about {
+      padding-top: 25px;
+   }
+
+   section.about .about-img {
+      bottom: 105px;
+      right: 45px;
+   }
+   section.about .about-img img {
+      width: 75%;
+   }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+   header .overlay {
+      padding-top: 40px;
+   }
+
+   header .overlay .header-img img {
+      max-width: 75%;
+      right: 55px;
+   }
+   section.feature .features .d-flex {
+      margin-bottom: 35px;
+   }
+
+   section.feature .features .d-flex .flex-grow-1 h5 {
+      font-size: 22px;
+   }
+
+   section.feature .features .d-flex .flex-grow-1 p {
+      font-size: 14px;
+      line-height: 18px;
+   }
+
+   section.feature .feature-img img {
+      margin-top: 132px;
+   }
+
+   section.about {
+      padding-top: 25px;
+   }
+
+   section.about .about-img {
+      bottom: 105px;
+      right: 45px;
+   }
+
+   section.about .about-img img {
+      width: 75%;
+   }
+
+   section.slider .slider-carousel button.carousel-control-prev,
+   section.slider .slider-carousel button.carousel-control-next {
+      margin-top: 64px;
+   }
+   footer .top-footer .about-us ul li a {
+      margin-bottom: 10px;
+   }
+
+   footer .top-footer p {
+      font-size: 16px;
+   }
+   footer .top-footer .mail form .form-control {
+      width: 100%;
+   }
+
+   footer .top-footer .mail form .btn {
+      font-size: 13px;
+   }
+}
+
+@media (max-width: 870px) and (min-width: 768px) {
+   header .overlay .header-img img {
+      bottom: -132px;
+      right: 20px;
+   }
+
+   section.about .about-img {
+      right: -5px;
+   }
+}
+
+@media (max-width: 768px) {
+   header .overlay {
+      padding-top: 0;
+      padding-bottom: 400px;
+      text-align: center;
+   }
+
+   header .overlay .header-img img {
+      bottom: -328px;
+      right: 29%;
+   }
+
+   section.feature {
+      padding: 0 !important;
+   }
+   section.about {
+      padding-top: 0;
+      padding-bottom: 460px;
+   }
+
+   section.slider .slider-carousel button.carousel-control-prev,
+   section.slider .slider-carousel button.carousel-control-next {
+      display: none;
+   }
+
+   section.slider .slider-carousel .carousel-inner {
+      width: 80%;
+   }
+
+   footer .top-footer h3 {
+      margin-top: 15px;
+   }
+}
